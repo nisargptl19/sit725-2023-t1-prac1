@@ -4,7 +4,7 @@ var counter = 0;
 
 function generateRandom(length) {
   return Math.floor(Math.random() * length);
-}
+} 
 
 function updateText() {
   // Array of text to display
