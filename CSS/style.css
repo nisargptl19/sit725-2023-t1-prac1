@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f0e9e9;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 32px;
+  color: #FF8D1E;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  padding: 1rem 2rem;
+
+  background-color: #1E90FF;
+  color: #FFFFFF;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+button:hover {
+  background-color: #0e69d9;
+}
